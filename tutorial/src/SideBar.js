@@ -1,5 +1,5 @@
-import {BsPlus, BsFillLightningFill, BsGearFill} from 'react-icons/bs'
-import {FaFill, FaPoo, FaFire} from 'react-icons/fa'
+import {BsPlus, BsFillLightningFill} from 'react-icons/bs'
+import {FaPoo, FaFire} from 'react-icons/fa'
 
 const SideBar = () => {
     return (
@@ -18,7 +18,7 @@ const SideBarIcon = ({icon, text = 'tooltip 💡'}) => (
     <div className="sidebar-icon group">
         {icon}
 
-        <span class="sidebar-tooltip group-hover:scale-100">
+        <span className="sidebar-tooltip group-hover:scale-100">
             {text}
         </span>
     </div>
