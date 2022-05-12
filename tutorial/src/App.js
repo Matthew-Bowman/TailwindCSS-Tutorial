@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 import SideBar from "./SideBar";
+import ContentBar from "./ContentBar";
 
 function App() {
   return (
     <div className="flex">
-      <SideBar />
+        <ContentBar />
+        <SideBar />
     </div>
   );
 }
