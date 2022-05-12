@@ -1,13 +1,19 @@
 import './App.css';
 
-import SideBar from "./SideBar";
+import Main from "./Main"
 import ContentBar from "./ContentBar";
+import SideBar from "./SideBar";
+import UserBar from "./UserBar";
 
 function App() {
   return (
-    <div className="flex">
+    <div>
+      <div className='flex flex-row'>
         <ContentBar />
         <SideBar />
+        <Main />
+        <UserBar />
+      </div>
     </div>
   );
 }
