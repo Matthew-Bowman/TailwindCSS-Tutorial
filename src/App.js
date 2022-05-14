@@ -9,10 +9,9 @@ function App() {
   return (
     <div>
       <div className='flex flex-row'>
-        <ContentBar />
         <SideBar />
-        <Main>
-        </Main>
+        <ContentBar />
+        <Main />
         <UserBar />
       </div>
     </div>
