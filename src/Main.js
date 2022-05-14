@@ -10,4 +10,12 @@ const Main = () => {
     );
 }
 
+const Message = () => {
+    return (
+        <div>
+            <h1>Test</h1>
+        </div>
+    );
+};
+
 export default Main;
