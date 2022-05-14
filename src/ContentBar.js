@@ -3,14 +3,14 @@ import TopBar from "./TopBar"
 
 const ContentBar = () => {
     return (
-        <div className="fixed top-0 left-16
+        <div className="fixed left-16
                         h-screen w-64
                         m-0 p-0
                         select-none
                         bg-gray-800 text-white
                         overflow-y-scroll scrollbar-none">
             <TopBar bg="800" ug="900" heading="Cool Server"/>
-            <div className="px-2">
+            <div className="px-2 w-full">
                 {/* <h2 className="ml-2 mt-8 mb-4 text-xl">Channels</h2> */}
                 <div className="flex flex-col h-fit">
                     <Channel text="General" />
