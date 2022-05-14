@@ -13,7 +13,7 @@ function App() {
         <ContentBar />
         <SideBar />
         <Main>
-        <Message />
+          <Message />
         </Main>
         <UserBar />
       </div>
