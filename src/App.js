@@ -4,7 +4,6 @@ import Main from "./Main"
 import ContentBar from "./ContentBar";
 import SideBar from "./SideBar";
 import UserBar from "./UserBar";
-import Message from "./Message";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
         <ContentBar />
         <SideBar />
         <Main>
-          <Message />
         </Main>
         <UserBar />
       </div>
