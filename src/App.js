@@ -4,6 +4,7 @@ import Main from "./Main"
 import ContentBar from "./ContentBar";
 import SideBar from "./SideBar";
 import UserBar from "./UserBar";
+import Message from "./Message";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       <div className='flex flex-row'>
         <ContentBar />
         <SideBar />
-        <Main />
+        <Main>
+        <Message />
+        </Main>
         <UserBar />
       </div>
     </div>
