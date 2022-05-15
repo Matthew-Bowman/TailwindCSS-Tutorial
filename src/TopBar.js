@@ -1,6 +1,6 @@
 const TopBar = ({bg, ug, heading}) => {
     return (
-        <div className={`w-full h-auto
+        <div className={`w-full h-12 
                         bg-gray-${bg} 
                         shadow-md shadow-gray-${ug}`}>
             <h2 className="ml-4 mb-2 
