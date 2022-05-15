@@ -12,7 +12,7 @@ function App() {
         <SideBar />
         <ContentBar />
         <Main />
-        <UserBar />
+        {/* <UserBar /> */}
       </div>
     </div>
   );
