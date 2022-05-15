@@ -9,10 +9,11 @@ const Main = () => {
                         flex-grow flex-shrink-0
                         bg-gray-700">
             <TopBar bg="700" ug="800" heading="General" />
-            <div className="overflow-y-scroll scrollbar-none h-full">
+            <div className="overflow-y-scroll scrollbar-none h-full mb-16">
                 <Message avatar="https://picsum.photos/48?random=1" author="Matthew." text="Hello! This is some really long text which will allow me to see how well the text wraps onto a new line once the message gets too long. :)" />
                 <Message avatar="https://picsum.photos/48?random=2" author="Kheraa" text="Oh yeah, no worries. I understand what you're doing! :)" />
             </div>
+            <MessageBar />
         </div>
     );
 }
