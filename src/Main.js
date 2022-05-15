@@ -5,7 +5,7 @@ const Main = () => {
         <div className="fixed left-80
                         flex flex-col
                         h-screen
-                        right-64
+                        right-0
                         flex-grow flex-shrink-0
                         bg-gray-700">
             <TopBar bg="700" ug="800" heading="General" />
