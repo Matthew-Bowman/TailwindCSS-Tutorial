@@ -3,20 +3,35 @@ import TopBar from "./TopBar"
 const Main = () => {
     return (
         <div className="fixed left-80
-                        w-full h-screen
+                        flex flex-col
+                        h-screen
+                        right-64
+                        flex-grow flex-shrink-0
                         bg-gray-700">
             <TopBar bg="700" ug="800" heading="General" />
-            <Message />
+            <div className="overflow-y-scroll scrollbar-none h-full">
+                <Message avatar="https://picsum.photos/48?random=1" author="Matthew." text="Hello! This is some really long text which will allow me to see how well the text wraps onto a new line once the message gets too long. :)" />
+                <Message avatar="https://picsum.photos/48?random=2" author="Kheraa" text="Oh yeah, no worries. I understand what you're doing! :)" />
+            </div>
         </div>
     );
 }
 
-const Message = () => {
+const MessageBar = () => {
     return (
-        <div className="p-4 w-full">
-            <img className="float-left rounded-full" src="https://picsum.photos/200" width="48" height="48" />
-            <h3>Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div className="h-16 fixed bottom-0 w-full bg-gray-800">
+        </div>
+    );
+}
+
+const Message = ({avatar, author, text}) => {
+    return (
+        <div className="p-4 w-full flex flex-row">
+            <img className="rounded-full h-12 w-12 mr-4" src={`${avatar}`} width="48" height="48" />
+            <div className="">
+                <h3 className="font-semibold text-base text-gray-200">{author}</h3>
+                <p className="text-sm text-gray-400">{text}</p>
+            </div>
         </div>
     );
 };
