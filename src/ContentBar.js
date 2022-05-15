@@ -13,7 +13,8 @@ const ContentBar = () => {
             <TopBar bg="800" ug="900" heading="Cool Server"/>
             <div className="px-2 w-full">
                 {/* <h2 className="ml-2 mt-8 mb-4 text-xl">Channels</h2> */}
-                <div className="flex flex-col h-fit">
+                <div className="h-fit mt-2
+                                flex flex-col">
                     <Channel text="General" />
                     <Channel text="Really-Long-General-Chat" />
                 </div>
