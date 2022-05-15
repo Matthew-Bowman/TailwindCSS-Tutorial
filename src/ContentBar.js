@@ -4,6 +4,7 @@ import TopBar from "./TopBar"
 const ContentBar = () => {
     return (
         <div className="fixed left-16
+                        flex flex-col
                         h-screen w-64
                         m-0 p-0
                         select-none
