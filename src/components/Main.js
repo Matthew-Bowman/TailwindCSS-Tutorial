@@ -37,7 +37,7 @@ const MessageBar = () => {
 
 const Message = ({avatar, author, text}) => {
     return (
-        <div className="p-4 w-full flex flex-row">
+        <div className="p-4 w-5/6 flex flex-row">
             <img className="rounded-full h-12 w-12 mr-4" src={`${avatar}`} width="48" height="48" />
             <div className="">
                 <h3 className="font-semibold text-base text-gray-200">{author}</h3>
