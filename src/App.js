@@ -1,9 +1,9 @@
 import './App.css';
 
-import Main from "./Main"
-import ContentBar from "./ContentBar";
-import SideBar from "./SideBar";
-import UserBar from "./UserBar";
+import Main from "./components/Main"
+import ContentBar from "./components/ContentBar";
+import SideBar from "./components/SideBar";
+import UserBar from "./components/UserBar";
 
 function App() {
   return (
