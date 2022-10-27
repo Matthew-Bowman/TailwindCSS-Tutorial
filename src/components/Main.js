@@ -12,8 +12,8 @@ const Main = () => {
             <TopBar bg="700" ug="800" heading="General" />
             {/* Message Container */}
             <div className="overflow-y-scroll scrollbar-none h-full">
-                <Message avatar="https://picsum.photos/48?random=1" author="Matthew." text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies mi quis hendrerit dolor magna eget est. Aenean pharetra magna ac placerat vestibulum lectus mauris. Amet nisl suscipit adipiscing bibendum." />
-                <Message avatar="https://picsum.photos/48?random=2" author="Kheraa" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum sed arcu non odio euismod lacinia at quis. Amet nisl suscipit adipiscing bibendum est. Mauris vitae ultricies leo integer malesuada nunc vel." />
+                <Message avatar="https://picsum.photos/48?random=1" author="Matthew" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies mi quis hendrerit dolor magna eget est. Aenean pharetra magna ac placerat vestibulum lectus mauris. Amet nisl suscipit adipiscing bibendum." />
+                <Message avatar="https://picsum.photos/48?random=2" author="James" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum sed arcu non odio euismod lacinia at quis. Amet nisl suscipit adipiscing bibendum est. Mauris vitae ultricies leo integer malesuada nunc vel." />
             </div>
             {/* Where Users Type Their Message */}
             <MessageBar />
